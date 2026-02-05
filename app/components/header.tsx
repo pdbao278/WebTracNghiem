@@ -16,7 +16,7 @@ export default function Header() {
             Home
           </Link>
           <Link href="/english" className="hover:text-blue-600">
-            English
+            Listening Tests
           </Link>
         </nav>
       </div>
