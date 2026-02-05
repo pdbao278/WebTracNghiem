@@ -1,5 +1,5 @@
 import Link from "next/link";
-import tests from "@/dethi/english";
+import tests from "../../dethi/english/p1";
 
 export default function QuizListPage() {
   return (
@@ -9,7 +9,7 @@ export default function QuizListPage() {
       {Object.values(tests).map((t: any) => (
         <Link
           key={t.id}
-          href={`/quiz/${t.id}`}
+          href={`/english/${t.id}`}
           className="block p-3 border rounded-md mb-2 hover:bg-gray-50"
         >
           {t.title}
